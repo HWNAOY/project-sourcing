@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.upload-form {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Style the file input */
+input[type='file'] {
+    display: none;
+}
+
+.label-for-file {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Make the label look like a button */
+.label-for-file:hover {
+    background: #0056b3;
+}
+
+/* Style the selected file name */
+.selected-file-name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.dropdown {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.result-button {
+    background: #28A745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.result-button:hover {
+    background: #1e7e34;
+}
+
+.upload-button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background: #0056b3;
+}
